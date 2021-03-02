@@ -1,0 +1,93 @@
+/*
+Color Scheme
+
+#FB85C0 - pink
+#FFEACF - off white / cream
+#F7C560 - yellow
+#53779F - blue gray
+*/
+
+* {
+    font-family: 'Libre Baskerville', serif;;
+}
+
+body {
+    margin: 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F7C560;
+}
+
+header img {
+    max-height: 100px;
+}
+
+header ul {
+    display: flex;
+    margin-right: 10px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    align-items: center;
+    
+}
+
+header li {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #53779F;
+}
+
+.main-image-container img {
+    width: 100%;
+    
+}
+
+.main-image-container a {
+    display: block;
+    text-align: center;
+}
+
+.info-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.info-container div, .info-container section {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0%;
+}
+
+footer p {
+    text-align: center;
+}
+
+.landmark-info, .city-info, .celebrity-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.categoryList {
+    width: 100%;
+    display: inline-block;
+}
+
+.image-container img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
