@@ -1,16 +1,16 @@
- const ausCelebrity = [
+ const celebritiesArray = [
     {
-        celebrity: "Chris Hemsworth",
+        name: "Chris Hemsworth",
     },
     {
-        celebrity: "Nicole Kidman",
+        name: "Nicole Kidman",
     },
     {
-        celebrity: "Hugh Jackman",
+        name: "Hugh Jackman",
     },
     
 ]
 
-export const ausCelebritySend = () => {
-    return ausCelebrity
+export const getCelebrities = () => {
+    return celebritiesArray
 }
