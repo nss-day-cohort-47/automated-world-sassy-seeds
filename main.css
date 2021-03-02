@@ -1,0 +1,70 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%; // 1rem 10 / 16px 
+
+}
+body{
+    background-color: #FFEACF;
+    width: 85%;
+    }
+    
+nav{
+    background-color: #F7C560; 
+    height: 5rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo_img{
+    height: 4.9rem;
+    width: 8rem;
+
+}
+.homeImage_container{
+    display:flex;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,2989d8+58&1+0,0.55+87 */
+    background: -moz-linear-gradient(top,  rgba(30,87,153,1) 0%, rgba(41,137,216,0.7) 58%, rgba(41,137,216,0.55) 87%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(41,137,216,0.7) 58%,rgba(41,137,216,0.55) 87%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(30,87,153,1) 0%,rgba(41,137,216,0.7) 58%,rgba(41,137,216,0.55) 87%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#8c2989d8',GradientType=0 ); /* IE6-9 */
+
+    align-items:center;
+
+}
+.homeImage{
+  border-radius: 0.5rem 0.5rem 0 0;
+  width: 85%;
+  object-fit: cover;
+  aspect-ratio:8/3;
+  margin-left: 5%;
+  }
+footer{
+    background-color: #F7C560; 
+    height: 5rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.home_country__container{
+    display:flex;
+    justify-content: space-around;
+}
+.home_country__img{
+    height:15rem;
+}
+.home-country__detail{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
