@@ -13,5 +13,3 @@ const ausLoopLog = () => {
 };
 
 ausLoopLog()
-
-console.log(ausLoopLog)
