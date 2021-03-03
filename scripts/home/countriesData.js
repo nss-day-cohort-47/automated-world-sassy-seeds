@@ -2,22 +2,22 @@ const countryList = [{
     image: "../../images/poland.jpeg",
     name: "Poland",
     phrase: "Oh wow",
-    link: "../poland/main.html"
+    link: "../poland.html"
 },{
     image: "../../images/austrailia.jpeg",
     name: "Austrailia",
     phrase: "Oh wow",
-    link: "../austrailia/main.html"
+    link: "../austrailia.html"
 },{
     image: "../../images/canada.jpeg",
     name: "Canada",
     phrase: "Oh wow",
-    link: "../canada/main.html"
+    link: "../canada.html"
 },{
     image: "../../images/norway.jpeg",
     name: "Norway",
     phrase: "Oh wow",
-    link: "../norway/main.html"
+    link: "../norway.html"
 }]
 export const getHomePage = () => {
     return countryList;
