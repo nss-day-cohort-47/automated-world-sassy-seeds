@@ -4,7 +4,6 @@ export const celebrityHTML = (celebrity) => {
     <div class = "categoryList">
     <p class = "listItem">${celebrity.name}</p>
     </div>
-
     `;
 }
 

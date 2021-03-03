@@ -2,25 +2,28 @@ export const Country = (country, odd) => {
     let retHTML = "";
     if (odd) {
         retHTML = `
+    <div class="countrySectionAltRight">
       <div class="imageLeft">
       <img src="./images/${country.image}" alt="TravelCompany" class="home_country__img">
-      <div class="home-country__detail">
-          <h2>${country.name}</h2>
-          <p>${country.phrase}</p>
-          <a class="button" href="../${country.link}">Button</a>
       </div>
+      <div class="home-country_detail-right">
+          <h2 class="h2Alt">${country.name}</h2>
+          <p class="pAlt">${country.phrase}</p>
+          <button href="../${country.link}" class="buttonAlt">See More</button>
+   </div>
    </div>
           `
     } else {
         retHTML = `
-        <div  class="imageRight">
-        
-        <div class="home-country__detail">
-            <h2>${country.name}</h2>
-            <p>${country.phrase}</p>
-            <a class="button" href="../${country.link}">Button</a>
+        <div class="countrySectionAltLeft">
+        <div class="home-country_detail-left">
+            <h2 class="h2Alt">${country.name}</h2>
+            <p class="pAlt">${country.phrase}</p>
+            <button href="../${country.link}" class="buttonAlt">See More</button>
         </div>
+        <div  class="imageRight">
         <img src="./images/${country.image}" alt="TravelCompany" class="home_country__img">
+        </div>
         </div>
      
             `
