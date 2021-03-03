@@ -1,6 +1,7 @@
 const countryList = [{
     image: "../../images/poland.jpeg",
     name: "Poland",
+
     phrase: "Did you know Poland is home to some of the worlds heaviest animals? You could be one too if you book your flight now!",
     link: "../poland/main.html"
 },{
