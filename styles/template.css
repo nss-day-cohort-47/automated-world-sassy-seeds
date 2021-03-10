@@ -1,39 +1,160 @@
-.header-container {
-    display: flex;
-    justify-content: space-between;
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+/* whats this do?^^ */
+
+html {
+    font-size: 62.5%; // 1rem 10 / 16px 
 }
 
-header img {
-    max-height: 100px;
+
+body{
+    background-color: #FFEACF;
+    width: 100%;
+    }
+    
+nav{
+    background-image: linear-gradient(to left,#fabe47,#faaf1a );
+    height: 100px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.menu{
+    font-size: 15px;
+    color: white;
+    text-decoration:none;
+    margin:0px;
+    background-color:#53779F;
+    border-radius: 3px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.active{
+    font-size: 15px;
+    color:white;
+    text-decoration:none;
+    margin:0px;
+    background-color: #FB85C0;
+    border-radius: 3px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#myLinks{
+    margin-right:5%;
+}
+
+.logo_img{
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left: 5%;
+    height: 150px;
+}
+
+.listItem{
+    font-size: 15px;
+}
+
+h1{
+    
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.country-image{
+    margin-bottom: 20px;
+}
+
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.landmark-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.city-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.celebrity-info{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contain{
+    background-color: #53779F;
+    border-radius: 20px;
+    padding:20px;
+}
+
+.image-container h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    
+}
+
+
+
+    
+.info-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+
+.info-container div, .info-container section {
+    /* text-align: left; */
+    display: flex;
+    justify-content: center;
+}
+
 
 .main-image-container img {
     width: 100%;
     height: 300px;
 }
 
-.main-image-container a {
-    display: block;
-    text-align: center;
-}
-
-.info-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.info-container div, .info-container section {
-    width: 30%;
-    display: flex;
-    justify-content: center;
-}
 
 ul {
     list-style-type: none;
     padding: 0%;
 }
 
-footer p {
-    text-align: center;
+
+
+
+footer{
+    
+    background-color: #F7C560; 
+    height: 5rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+}
+
+footer p{
+    padding-left: 5%;
+    padding-top:20px;
+    padding-bottom:20   px;
 }

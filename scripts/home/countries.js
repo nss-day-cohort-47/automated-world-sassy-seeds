@@ -9,7 +9,7 @@ export const Country = (country, odd) => {
       <div class="home-country_detail-right">
           <h2 class="h2Alt">${country.name}</h2>
           <p class="pAlt">${country.phrase}</p>
-          <button href="../${country.link}" class="buttonAlt">See More</button>
+          <button onclick="document.location='${country.link}'" class="buttonAlt">See More</button>
    </div>
    </div>
           `
@@ -19,7 +19,7 @@ export const Country = (country, odd) => {
         <div class="home-country_detail-left">
             <h2 class="h2Alt">${country.name}</h2>
             <p class="pAlt">${country.phrase}</p>
-            <button href="../${country.link}" class="buttonAlt">See More</button>
+            <button onclick="document.location='${country.link}'" class="buttonAlt">See More</button>
         </div>
         <div  class="imageRight">
         <img src="./images/${country.image}" alt="TravelCompany" class="home_country__img">

@@ -4,7 +4,9 @@ export const Landmark = (landmark) => {
         retHTML = `
         
 
-            <li>${landmark.landmark}</li>
+        <div class = "categoryList">
+        <p class = "listItem">${landmark.landmark}</p>
+    </div>
      
             `
     return retHTML;
