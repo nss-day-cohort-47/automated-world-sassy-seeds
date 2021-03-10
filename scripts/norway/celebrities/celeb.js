@@ -1,11 +1,8 @@
 export const Celeb = (celebrity) => {
-    let retHTML = "";
-
-        retHTML = `
-        
-
-            <li>${celebrity.celebrity}</li>
-     
+    let retHTML =`
+        <div class = "categoryList">
+        <p class = "listItem">${celebrity.celebrity}</p>
+    </div>
             `
     return retHTML;
 }

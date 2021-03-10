@@ -4,7 +4,9 @@ export const City = (city) => {
         retHTML = `
         
 
-            <li>${city.city}</li>
+        <div class = "categoryList">
+        <p class = "listItem">${city.city}</p>
+    </div>
      
             `
     return retHTML;

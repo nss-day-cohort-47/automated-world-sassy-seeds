@@ -6,52 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles/template.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="header-container">
-            <img src="images\norway1.jpeg" alt="logo">
-            <ul>
-                <li><a href="">Australia</a></li>
-                <li><a href="">Canada</a></li>
-                <li><a href="">Norway</a></li>
-                <li><a href="">Poland</a></li>
-            </ul>
-        </div>
-    </header>
+        
+        <nav>
+            <img src="./images/travel-logo.png" alt="TravelCompany" class="logo_img">
+            <div id="myLinks">
+                <a href="index.html" class="menu">Home</a>
+                <a href="poland.html" class="menu">Poland</a>
+                <a href="australia.html" class="menu">Australia</a>
+                <a href="canada.html" class="menu">Canada</a>
+                <a href="norway.html" class="active">Norway</a>
+              </div>
+    
+        </nav>
+
     <main>
         <div class="main-image-container">
-            <img src="images\norway1.jpeg" alt="Norway" class="country-image">
-            <a href="https://www.google.com/maps/place/Oslo,+Norway/@59.8937806,10.6450355,11z/data=!3m1!4b1!4m5!3m4!1s0x46416e61f267f039:0x7e92605fd3231e9a!8m2!3d59.9138688!4d10.7522454">Link to Google Maps</a>
+            <img src="images/canada.jpg" alt="country" class="country-image">
+
         </div>
+        <h1>Norway<h1>
         <div class="info-container">
+            <div class="contain">
             <div class="image-container">
-                <img src="images/norway_landmark.jpeg" alt="landmark">
-            </div>
-            <div class="image-container">
-                <img src="images/norway_cities.jpeg" alt="city">
-            </div>
-            <div class="image-container">
-                <img src="images/norway_celebs.jpg" alt="celebrity">
-            </div>
-            <!--images above respective info section-->
-            <section >
-                <h3>Norway Lanmarks</h3>
-           
-                <ul class="landmark-info">
-
-                </ul>
-            </section>
-            <section >
-                <h3>Norway Cities</h3>
-                <ul class="city-info">
-
-                </ul>
-            </section>
-            <section class="celebrity-info">
+                <h2>Landmarks</h2>
+                <!-- <img src="images\placeholder.png" alt="landmark"> -->
+                <section class="landmark-info">
                 
-            </section>
+                </section>
+                </div>
+            </div>
+            <div class="contain">
+            <div class="image-container">
+                <h2>Cities</h2>
+                <!-- <img src="images\placeholder.png" alt="city"> -->
+                <section class="city-info">
+                
+                </section>
+            </div>
+            </div>
+            <div class="contain">
+            <div class="image-container">
+                <h2>Celebrities</h2>
+                <!-- <img src="images\placeholder.png" alt="celebrity"> -->
+                <section class="celebrity-info">
+                 </div>
+
+                </section>
+            </div>
         </div>
+           <!-- had to rearange info above so that info will stay tagged to the images even when flex boxed. -->
     </main>
     <footer>
         <p>Sassy Seeds &copy; 2021</p>

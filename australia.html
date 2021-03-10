@@ -6,45 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles/template.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="header-container">
-            <img src="images\placeholder.png" alt="logo">
-            <ul>
-                <li><a href=""class="active">Australia</a></li>
-                <li><a href="" class="menu">Canada</a></li>
-                <li><a href="" class="menu">Norway</a></li>
-                <li><a href="" class="menu">Poland</a></li>
-            </ul>
-        </div>
-    </header>
+        
+        <nav>
+            <img src="./images/travel-logo.png" alt="TravelCompany" class="logo_img">
+            <div id="myLinks">
+                <a href="index.html" class="menu">Home</a>
+                <a href="poland.html" class="menu">Poland</a>
+                <a href="australia.html" class="active">Australia</a>
+                <a href="canada.html" class="menu">Canada</a>
+                <a href="norway.html" class="menu">Norway</a>
+              </div>
+    
+        </nav>
+
     <main>
         <div class="main-image-container">
-            <img src="images\placeholder.png" alt="country" class="country-image">
-            <a href="">Link to Google Maps</a>
+            <img src="images/canada.jpg" alt="country" class="country-image">
+
         </div>
+        <h1>Australia<h1>
         <div class="info-container">
+            <div class="contain">
             <div class="image-container">
-                <img src="images\placeholder.png" alt="landmark">
+                <h2>Landmarks</h2>
+                <!-- <img src="images\placeholder.png" alt="landmark"> -->
+                <section class="landmark-info">
+                
+                </section>
+                </div>
             </div>
+            <div class="contain">
             <div class="image-container">
-                <img src="images\placeholder.png" alt="city">
+                <h2>Cities</h2>
+                <!-- <img src="images\placeholder.png" alt="city"> -->
+                <section class="city-info">
+                
+                </section>
             </div>
+            </div>
+            <div class="contain">
             <div class="image-container">
-                <img src="images\placeholder.png" alt="celebrity">
+                <h2>Celebrities</h2>
+                <!-- <img src="images\placeholder.png" alt="celebrity"> -->
+                <section class="celebrity-info">
+                 </div>
+
+                </section>
             </div>
-            <!--images above respective info section-->
-            <section class="landmark-info">
-                
-            </section>
-            <section class="city-info">
-                
-            </section>
-            <section class="celebrity-info">
-                
-            </section>
         </div>
+           <!-- had to rearange info above so that info will stay tagged to the images even when flex boxed. -->
     </main>
     <footer>
         <p>Sassy Seeds &copy; 2021</p>
